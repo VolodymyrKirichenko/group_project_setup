@@ -4,6 +4,7 @@ import './App.css';
 
 import logo from './logo.svg';
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 function App() {
 	return (
 		<div className="App">
@@ -22,7 +23,7 @@ and save to reload.
 					rel="noopener noreferrer"
 					target="_blank"
 				>
-          Learn React
+          Learn React!
 				</a>
 			</header>
 		</div>

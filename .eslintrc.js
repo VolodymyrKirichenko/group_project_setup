@@ -16,6 +16,10 @@ module.exports = {
 		browser: true,
 		node: true,
 	},
+	globals: {
+		test: 'readonly',
+		expect: 'readonly',
+	},
 	rules: {
 		'no-undef': 'error',
 		semi: ['error', 'always'],
