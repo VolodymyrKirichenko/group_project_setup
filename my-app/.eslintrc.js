@@ -4,27 +4,21 @@ module.exports = {
 		'plugin:react-hooks/recommended',
 		'eslint:recommended',
 		'plugin:react/recommended',
-		'prettier'
+		'prettier',
 	],
-	plugins: [
-		'simple-import-sort',
-		'react',
-		'react-hooks',
-		'@typescript-eslint',
-		'prettier'
-	],
+	plugins: ['simple-import-sort', 'react', 'react-hooks', '@typescript-eslint', 'prettier'],
 	settings: {
 		react: {
 			version: 'detect',
 		},
 	},
-	'env': {
-		'browser': true,
-		'node': true
+	env: {
+		browser: true,
+		node: true,
 	},
 	rules: {
 		'no-undef': 'error',
-		'semi': ['error', 'always'],
+		semi: ['error', 'always'],
 		'@typescript-eslint/no-non-null-assertion': 'off',
 		'comma-dangle': [2, 'only-multiline'],
 		'@typescript-eslint/no-var-requires': 0,
@@ -35,63 +29,74 @@ module.exports = {
 		'@typescript-eslint/explicit-module-boundary-types': 'error',
 		'simple-import-sort/exports': 'error',
 		'react/jsx-closing-bracket-location': ['error', 'line-aligned'],
-		'react/jsx-one-expression-per-line': ['error', {'allow': 'single-child'}],
+		'react/jsx-one-expression-per-line': ['error', {allow: 'single-child'}],
 		'padding-line-between-statements': [
 			'error',
-			{'blankLine': 'always', 'prev': '*', 'next': 'return'},
-			{'blankLine': 'always', 'prev': ['const', 'let', 'var'], 'next': '*'},
-			{'blankLine': 'any', 'prev': ['const', 'let', 'var'], 'next': ['const', 'let', 'var']},
-			{'blankLine': 'always', 'prev': 'directive', 'next': '*'},
-			{'blankLine': 'always', 'prev': 'block-like', 'next': '*'},
-			{'blankLine': 'always', 'prev': 'multiline-expression', 'next': '*'},
+			{blankLine: 'always', prev: '*', next: 'return'},
+			{blankLine: 'always', prev: ['const', 'let', 'var'], next: '*'},
+			{blankLine: 'any', prev: ['const', 'let', 'var'], next: ['const', 'let', 'var']},
+			{blankLine: 'always', prev: 'directive', next: '*'},
+			{blankLine: 'always', prev: 'block-like', next: '*'},
+			{blankLine: 'always', prev: 'multiline-expression', next: '*'},
 		],
 		'no-multi-spaces': 'error',
-		'react/jsx-tag-spacing': ['error', {
-			'closingSlash': 'never',
-			'beforeSelfClosing': 'always',
-			'afterOpening': 'never',
-			'beforeClosing': 'allow'
-		}],
+		'react/jsx-tag-spacing': [
+			'error',
+			{
+				closingSlash: 'never',
+				beforeSelfClosing: 'always',
+				afterOpening: 'never',
+				beforeClosing: 'allow',
+			},
+		],
 		'operator-linebreak': ['error', 'before'],
 		'brace-style': ['error', '1tbs'],
-		'curly': ['error', 'all'],
-		'indent': ['error', 'tab', {
-			'MemberExpression': 'off',
-			'SwitchCase': 1
-		}],
-		'no-multiple-empty-lines': ['error', {'max': 1}],
+		curly: ['error', 'all'],
+		indent: [
+			'error',
+			'tab',
+			{
+				MemberExpression: 'off',
+				SwitchCase: 1,
+			},
+		],
+		'no-multiple-empty-lines': ['error', {max: 1}],
 		'no-extra-semi': 'error',
 		'@typescript-eslint/member-delimiter-style': [
 			'error',
 			{
-				'multiline': {
-					'delimiter': 'semi',
-					'requireLast': false,
+				multiline: {
+					delimiter: 'semi',
+					requireLast: false,
 				},
-				'singleline': {
-					'delimiter': 'semi',
-					'requireLast': true,
+				singleline: {
+					delimiter: 'semi',
+					requireLast: true,
 				},
-				'overrides': {
-					'interface': {
-						'multiline': {
-							'delimiter': 'comma',
-							'requireLast': false,
+				overrides: {
+					interface: {
+						multiline: {
+							delimiter: 'comma',
+							requireLast: false,
 						},
-						'singleline': {
-							'delimiter': 'comma',
-							'requireLast': true,
+						singleline: {
+							delimiter: 'comma',
+							requireLast: true,
 						},
 					},
 				},
 			},
 		],
-		'max-len': ['error', 90, {
-			'ignoreStrings': true,
-			'ignoreTemplateLiterals': true,
-			'ignoreRegExpLiterals': true,
-			'ignoreComments': true,
-		}],
+		'max-len': [
+			'error',
+			90,
+			{
+				ignoreStrings: true,
+				ignoreTemplateLiterals: true,
+				ignoreRegExpLiterals: true,
+				ignoreComments: true,
+			},
+		],
 		'simple-import-sort/imports': [
 			'error',
 			{
@@ -131,6 +136,6 @@ module.exports = {
 			},
 		],
 		'react-hooks/rules-of-hooks': 'error',
-		'react-hooks/exhaustive-deps': 'error'
+		'react-hooks/exhaustive-deps': 'error',
 	},
 };
