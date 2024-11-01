@@ -16,7 +16,7 @@ function App() {
 				<p>
           Edit 
 					{' '}
-					<code>src/App.tsx</code>
+					<code>Develop</code>
 					{' '}
 and save to reload.
 				</p>
