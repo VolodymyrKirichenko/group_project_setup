@@ -11,8 +11,8 @@ function App() {
 
 	return (
 		<div className={styles.App}>
-			<header className={styles.AppLogo}>
-				<img alt="logo" className={styles.AppLink} src={logo} />
+			<header className={styles.AppHeader}>
+				<img alt="logo" className={styles.AppLogo} src={logo} />
 				<p>
           Edit 
 					{' '}
