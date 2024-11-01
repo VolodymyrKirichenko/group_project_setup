@@ -10,7 +10,7 @@
     "format": "prettier . --ignore-path .gitignore --write",
     "lint": "eslint . --ignore-path .gitignore --fix",
     "fix-style": "npm run format & npm run lint",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
