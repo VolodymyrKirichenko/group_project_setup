@@ -16,7 +16,7 @@ function App() {
 				<p>
           Edit 
 					{' '}
-					<code>DevelopTwo</code>
+					<code>Worker</code>
 					{' '}
 and save to reload.
 				</p>
