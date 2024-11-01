@@ -1,0 +1,52 @@
+:root {
+  --primary: #313237;
+  --secondary: #89939a;
+  --button-color: #313237;
+  --primary-button-hover: #313237;
+  --primary-button-selected: #ffffff;
+  --second-button-bg: transparent;
+  --second-button-border-color: #b4bdc3;
+  --second-button-border-hover: #313237;
+  --BG-color: #fafbfc;
+  --elements: #e2e6e9;
+  --white: #ffffff;
+  --green: #27ae60;
+  --red: #eb5757;
+}
+
+.dark-theme {
+  --primary: #f1f2f9;
+  --secondary: #75767f;
+  --button-color: #905BFF;
+  --primary-button-hover: #a378ff;
+  --primary-button-selected: #323542;
+  --BG-color: #0f1121;
+  --second-button-bg: #323542;
+  --second-button-border-color: #323542;
+  --second-button-border-hover: #89939a;
+  --elements: #3b3e4a;
+  --white: #f1f2f9;
+  --green: #27ae60;
+  --red: #eb5757;
+}
+
+// grid params
+
+$grid-gap: 16px;
+
+// container params
+
+$container-width: 1136px;
+$horizontal-paddings: $grid-gap;
+
+// breakpointsWidth
+
+$pc: $container-width + ($horizontal-paddings * 2);
+$tablet: 992px;
+$mobile: 768px;
+$mobile-small: 480px;
+$min-break-point: 320px;
+
+// margins
+$section-margin-big: 80px;
+$section-margin-small: 56px;

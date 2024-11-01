@@ -5,4 +5,13 @@ import {defineConfig} from 'vite';
 export default defineConfig({
 	plugins: [react()],
 	base: '/group_project_setup/',
+	css: {
+		preprocessorOptions: {
+			scss: {
+				additionalData: `
+				@import './src/styles/utils/variables.scss';
+				`,
+			},
+		},
+	},
 });

@@ -1,7 +1,6 @@
 import React from 'react';
 
-import './App.scss';
-
+import styles from './App.module.scss';
 import logo from './logo.svg';
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
@@ -11,9 +10,9 @@ function App() {
 	console.log('baseUrl', baseUrl);
 
 	return (
-		<div className="App">
-			<header className="App-header">
-				<img alt="logo" className="App-logo" src={logo} />
+		<div className={styles.App}>
+			<header className={styles.AppLogo}>
+				<img alt="logo" className={styles.AppLink} src={logo} />
 				<p>
           Edit 
 					{' '}
@@ -22,7 +21,7 @@ function App() {
 and save to reload.
 				</p>
 				<a
-					className="App-link"
+					className={styles.AppLink}
 					href="https://reactjs.org"
 					rel="noopener noreferrer"
 					target="_blank"
