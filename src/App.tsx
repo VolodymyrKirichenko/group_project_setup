@@ -6,6 +6,10 @@ import logo from './logo.svg';
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 function App() {
+	const baseUrl = import.meta.env.VITE_BASE_URL;
+
+	console.log('baseUrl', baseUrl);
+
 	return (
 		<div className="App">
 			<header className="App-header">
