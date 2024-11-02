@@ -5,6 +5,10 @@ import {defineConfig} from 'vite';
 export default defineConfig({
 	plugins: [react()],
 	base: '/group_project_setup/',
+	build: {
+		outDir: 'dist',
+		sourcemap: true,
+	},
 	css: {
 		preprocessorOptions: {
 			scss: {

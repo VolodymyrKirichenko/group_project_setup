@@ -1,0 +1,108 @@
+.dark-theme {
+  --primary: #f1f2f9;
+  --secondary: #75767f;
+  --button-color: #905bff;
+  --primary-button-hover: #a378ff;
+  --primary-button-selected: #323542;
+  --BG-color: #0f1121;
+  --second-button-bg: #323542;
+  --second-button-border-color: #323542;
+  --second-button-border-hover: #89939a;
+  --elements: #3b3e4a;
+  --white: #f1f2f9;
+  --green: #27ae60;
+  --red: #eb5757;
+}
+body {
+  margin: 0;
+  max-height: 100vh;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    Fira Sans,
+    Droid Sans,
+    Helvetica Neue,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    Courier New,
+    monospace;
+}
+:root {
+  --primary: #313237;
+  --secondary: #89939a;
+  --button-color: #313237;
+  --primary-button-hover: #313237;
+  --primary-button-selected: #ffffff;
+  --second-button-bg: transparent;
+  --second-button-border-color: #b4bdc3;
+  --second-button-border-hover: #313237;
+  --BG-color: #fafbfc;
+  --elements: #e2e6e9;
+  --white: #ffffff;
+  --green: #27ae60;
+  --red: #eb5757;
+}
+._dark-theme_10lg4_17 {
+  --primary: #f1f2f9;
+  --secondary: #75767f;
+  --button-color: #905bff;
+  --primary-button-hover: #a378ff;
+  --primary-button-selected: #323542;
+  --BG-color: #0f1121;
+  --second-button-bg: #323542;
+  --second-button-border-color: #323542;
+  --second-button-border-hover: #89939a;
+  --elements: #3b3e4a;
+  --white: #f1f2f9;
+  --green: #27ae60;
+  --red: #eb5757;
+}
+* {
+  box-sizing: border-box;
+}
+._App_10lg4_37 {
+  text-align: center;
+}
+._AppLogo_10lg4_41 {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  ._AppLogo_10lg4_41 {
+    animation: _App-logo-spin_10lg4_1 infinite 20s linear;
+  }
+}
+._AppHeader_10lg4_51 {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+._AppLink_10lg4_62 {
+  color: var(--red);
+}
+@keyframes _App-logo-spin_10lg4_1 {
+  0% {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
