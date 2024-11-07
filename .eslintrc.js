@@ -22,6 +22,7 @@ module.exports = {
 	},
 	rules: {
 		'no-undef': 'error',
+		'react/react-in-jsx-scope': 'off',
 		semi: ['error', 'always'],
 		'@typescript-eslint/no-non-null-assertion': 'off',
 		'comma-dangle': [2, 'only-multiline'],
